@@ -41,7 +41,7 @@
   | Audio | Realtek ALC283 |
   | External Display | Iiyama (1920x1080 @ 60Hz)
   | Ethernet | Intel Ethernet Connection I217-V |
-  | Internal WiFi/Bluetooth | Centrino® Advanced-N 6205 |
+  | Internal WiFi | Centrino® Advanced-N 6205 |
   
   **If your system does not match these specifications, it is not guaranteed that this configuration will work for you. If you are unable to get it working, you can create an issue, and I will try to help you to the best of my ability.**
 
