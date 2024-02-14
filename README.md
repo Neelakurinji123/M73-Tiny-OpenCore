@@ -33,15 +33,15 @@
   
   | Component | Model |
   | :-: | :-: |
-  | CPU | Intel Core i7-4785T (4c8t) @ 2.20GHz |
+  | CPU | Intel Core i5-4570T (4c8t) @ 2.20GHz |
   | Chipset | Intel H81 Express |
   | Internal GPU | Intel HD Graphics 4600 |
-  | RAM | 2x8GB (16GB) of DDR3-1600 |
-  | Storage | ADATA SU800 512GB SATA SSD |
+  | RAM | 2x4GB (8GB) of DDR3-1600 |
+  | Storage | 512GB SATA HDD |
   | Audio | Realtek ALC283 |
-  | External Display | Lenovo ThinkVision T24i-20 (1920x1080 @ 60Hz)
+  | External Display | Iiyama (1920x1080 @ 60Hz)
   | Ethernet | Intel Ethernet Connection I217-V |
-  | Internal WiFi/Bluetooth | AzureWave AW-CE123H (BCM94352HMB) |
+  | Internal WiFi/Bluetooth | Centrino® Advanced-N 6205 |
   
   **If your system does not match these specifications, it is not guaranteed that this configuration will work for you. If you are unable to get it working, you can create an issue, and I will try to help you to the best of my ability.**
 
