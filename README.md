@@ -36,7 +36,7 @@
   | CPU | Intel Core i5-4570T (4c8t) @ 2.20GHz |
   | Chipset | Intel H81 Express |
   | Internal GPU | Intel HD Graphics 4600 |
-  | RAM | 2x4GB (8GB) of DDR3-1600 |
+  | RAM | 2x4GB (8GB) of DDR3-1333 |
   | Storage | 512GB SATA HDD |
   | Audio | Realtek ALC283 |
   | External Display | Iiyama (1920x1080 @ 60Hz)
