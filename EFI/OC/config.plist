@@ -706,7 +706,7 @@
                 <key>InstanceIdentifier</key>
                 <string></string>
                 <key>LauncherOption</key>
-                <string>Enabled</string>
+                <string>Full</string>
                 <key>LauncherPath</key>
                 <string>Default</string>
                 <key>PickerAttributes</key>
@@ -908,13 +908,13 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>D25439700CDF9RRJA</string>
+                <string>D25302104GUF9RRJC</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data>TqP1BVSy</data>
+                <data>xefv4YMA</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
@@ -922,9 +922,9 @@
                 <key>SystemProductName</key>
                 <string>iMac14,3</string>
                 <key>SystemSerialNumber</key>
-                <string>D25NG00VF8J3</string>
+                <string>D25K3VZ2F8J3</string>
                 <key>SystemUUID</key>
-                <string>D1B4F095-F7A5-4E45-A40B-AFF0F159FFC0</string>
+                <string>EB1D0A75-78FB-4789-8003-6CB4CAABAEA2</string>
             </dict>
             <key>Memory</key>
             <dict>
@@ -1371,7 +1371,7 @@
                 <key>IgnoreTextInGraphics</key>
                 <false/>
                 <key>InitialMode</key>
-                <string></string>
+                <string>Auto</string>
                 <key>ProvideConsoleGop</key>
                 <true/>
                 <key>ReconnectGraphicsOnConnect</key>
