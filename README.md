@@ -61,7 +61,8 @@
   | 6* | [Moving OpenCore from USB to macOS Drive (Skip the "Legacy" part at the bottom)](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html) |
   | 7* | [Fixing iMessage and other services with OpenCore (This is extremely recommended even if you don't use iServices because otherwise, you will have a generic serial number, which isn't a great idea.)](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html) |
   | 8** | [**For Big Sur and Monterey users**, modify the OpenCore configuration to improve security.](/Resources/Documentation/Security.md) |
-
+  | 9 | [Setup for using CustomMemory in OpenCore to improve stability.](https://dortania.github.io/OpenCore-Post-Install/universal/memory.html#mapping-our-memory) |
+    
   ## Updating OpenCore/macOS
   
   ### Updating OpenCore with a newer version of this configuration
