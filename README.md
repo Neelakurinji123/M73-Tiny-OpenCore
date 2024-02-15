@@ -2,9 +2,9 @@
 
   <img src="https://github.com/UHDbits/M73-Tiny-OpenCore/raw/main/Resources/Images/ThinkCentre.png" alt="Image of a Lenovo ThinkCentre M73 Tiny." width="400px"/>
   
-  # **OpenCore 0.9.7 for the Lenovo ThinkCentre M73 Tiny**
+  # **OpenCore 0.9.8 for the Lenovo ThinkCentre M73 Tiny**
   
-  [![OpenCore 0.9.7](https://img.shields.io/badge/OpenCore-0.9.7-004852)](https://github.com/acidanthera/OpenCorePkg)
+  [![OpenCore 0.9.8](https://img.shields.io/badge/OpenCore-0.9.7-004852)](https://github.com/acidanthera/OpenCorePkg)
   [![macOS Big Sur 11.0 to Sonoma 14.3](https://img.shields.io/badge/macOS-Big%20Sur%2011.0%20to%20Sonoma%2014.3-7D1B35?logo=apple)](https://apple.com/macos/sonoma)
 
   [![Maintained? Partially.](https://img.shields.io/badge/Maintained%3F-Partially.-666600.svg)](/Resources/Documentation/Maintenance.md)
@@ -33,7 +33,7 @@
   
   | Component | Model |
   | :-: | :-: |
-  | CPU | Intel Core i5-4570T (4c8t) @ 2.20GHz |
+  | CPU | Intel Core i5-4570T (4c8t) @ 2.9GHz |
   | Chipset | Intel H81 Express |
   | Internal GPU | Intel HD Graphics 4600 |
   | RAM | 2x4GB (8GB) of DDR3-1333 |
@@ -42,7 +42,8 @@
   | External Display | Iiyama (1920x1080 @ 60Hz)
   | Ethernet | Intel Ethernet Connection I217-V |
   | Internal WiFi | Centrino® Advanced-N 6205 |
-  
+  | BT dongle | BT-MicroEDR1X - Bluetooth Ver2.1＋EDR |
+    
   **If your system does not match these specifications, it is not guaranteed that this configuration will work for you. If you are unable to get it working, you can create an issue, and I will try to help you to the best of my ability.**
 
   ## Directions
@@ -61,7 +62,7 @@
   | 6* | [Moving OpenCore from USB to macOS Drive (Skip the "Legacy" part at the bottom)](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html) |
   | 7* | [Fixing iMessage and other services with OpenCore (This is extremely recommended even if you don't use iServices because otherwise, you will have a generic serial number, which isn't a great idea.)](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html) |
   | 8** | [**For Big Sur and Monterey users**, modify the OpenCore configuration to improve security.](/Resources/Documentation/Security.md) |
-  | 9 | [Setup for using CustomMemory in OpenCore to improve stability.](https://dortania.github.io/OpenCore-Post-Install/universal/memory.html#mapping-our-memory) |
+  
     
   ## Updating OpenCore/macOS
   
