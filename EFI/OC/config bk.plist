@@ -92,8 +92,6 @@
                 <true/>
                 <key>EnableWriteUnprotector</key>
                 <true/>
-                <key>FixupAppleEfiImages</key>
-                <false/>
                 <key>ForceBooterSignature</key>
                 <false/>
                 <key>ForceExitBootServices</key>
@@ -230,7 +228,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.8.9 | Kext for audio support.</string>
+                    <string>V1.8.7 | Kext for audio support.</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -394,7 +392,7 @@
                     <key>Comment</key>
                     <string>V2.6.8 | Kext for Bluetooth support on Big Sur.</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string></string>
                     <key>MaxKernel</key>
@@ -412,7 +410,7 @@
                     <key>Comment</key>
                     <string>V2.6.8 | Kext for Bluetooth support.</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/BrcmFirmwareData</string>
                     <key>MaxKernel</key>
@@ -430,7 +428,7 @@
                     <key>Comment</key>
                     <string>V2.6.8 | Kext for Bluetooth support.</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/BrcmPatchRAM3</string>
                     <key>MaxKernel</key>
@@ -644,8 +642,6 @@
                 <true/>
                 <key>DisableIoMapper</key>
                 <false/>
-                <key>DisableIoMapperMapping</key>
-                <false/>
                 <key>DisableLinkeditJettison</key>
                 <true/>
                 <key>DisableRtcChecksum</key>
@@ -703,8 +699,6 @@
                 <false/>
                 <key>HideAuxiliary</key>
                 <true/>
-                <key>InstanceIdentifier</key>
-                <string></string>
                 <key>LauncherOption</key>
                 <string>Enabled</string>
                 <key>LauncherPath</key>
@@ -908,259 +902,23 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>D25439700CDF9RRJA</string>
+                <string>D25526501QXG36DFB</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data>TqP1BVSy</data>
+                <data>WsxdDwLp</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
                 <string>Upgradable</string>
                 <key>SystemProductName</key>
-                <string>iMac14,3</string>
+                <string>iMac14,4</string>
                 <key>SystemSerialNumber</key>
-                <string>D25NG00VF8J3</string>
+                <string>D25PXBZFFY0T</string>
                 <key>SystemUUID</key>
-                <string>D1B4F095-F7A5-4E45-A40B-AFF0F159FFC0</string>
-            </dict>
-            <key>Memory</key>
-            <dict>
-                <key>DataWidth</key>
-                <integer>64</integer>
-                <key>Devices</key>
-                <array>
-                    <dict>
-                        <key>AssetTag</key>
-                        <string>9876543210</string>
-                        <key>BankLocator</key>
-                        <string>BANK 0</string>
-                        <key>DeviceLocator</key>
-                        <string>Slot 1</string>
-                        <key>Manufacturer</key>
-                        <string>Samsung</string>
-                        <key>PartNumber</key>
-                        <string>M471B5173DB0-YK0</string>
-                        <key>SerialNumber</key>
-                        <string>37CA665E</string>
-                        <key>Size</key>
-                        <integer>4096</integer>
-                        <key>Speed</key>
-                        <integer>1333</integer>
-                    </dict>
-                    <dict>
-                        <key>AssetTag</key>
-                        <string>9876543210</string>
-                        <key>BankLocator</key>
-                        <string>BANK 2</string>
-                        <key>DeviceLocator</key>
-                        <string>Slot 2</string>
-                        <key>Manufacturer</key>
-                        <string>1311</string>
-                        <key>PartNumber</key>
-                        <string>M2S4G64CB8HG4N-CG</string>
-                        <key>SerialNumber</key>
-                        <string>26C60A5C</string>
-                        <key>Size</key>
-                        <integer>4096</integer>
-                        <key>Speed</key>
-                        <integer>1333</integer>
-                    </dict>
-                    <dict>
-                        <key>AssetTag</key>
-                        <string></string>
-                        <key>BankLocator</key>
-                        <string></string>
-                        <key>DeviceLocator</key>
-                        <string>Slot 3</string>
-                        <key>Manufacturer</key>
-                        <string>Acidanthera</string>
-                        <key>PartNumber</key>
-                        <string></string>
-                        <key>SerialNumber</key>
-                        <string></string>
-                        <key>Size</key>
-                        <integer>0</integer>
-                        <key>Speed</key>
-                        <integer>0</integer>
-                    </dict>
-                    <dict>
-                        <key>AssetTag</key>
-                        <string></string>
-                        <key>BankLocator</key>
-                        <string></string>
-                        <key>DeviceLocator</key>
-                        <string>Slot 4</string>
-                        <key>Manufacturer</key>
-                        <string>Acidanthera</string>
-                        <key>PartNumber</key>
-                        <string></string>
-                        <key>SerialNumber</key>
-                        <string></string>
-                        <key>Size</key>
-                        <integer>0</integer>
-                        <key>Speed</key>
-                        <integer>0</integer>
-                    </dict>
-                    <dict>
-                        <key>AssetTag</key>
-                        <string></string>
-                        <key>BankLocator</key>
-                        <string></string>
-                        <key>DeviceLocator</key>
-                        <string>Slot 5</string>
-                        <key>Manufacturer</key>
-                        <string>Acidanthera</string>
-                        <key>PartNumber</key>
-                        <string></string>
-                        <key>SerialNumber</key>
-                        <string></string>
-                        <key>Size</key>
-                        <integer>0</integer>
-                        <key>Speed</key>
-                        <integer>0</integer>
-                    </dict>
-                    <dict>
-                        <key>AssetTag</key>
-                        <string></string>
-                        <key>BankLocator</key>
-                        <string></string>
-                        <key>DeviceLocator</key>
-                        <string>Slot 6</string>
-                        <key>Manufacturer</key>
-                        <string>Acidanthera</string>
-                        <key>PartNumber</key>
-                        <string></string>
-                        <key>SerialNumber</key>
-                        <string></string>
-                        <key>Size</key>
-                        <integer>0</integer>
-                        <key>Speed</key>
-                        <integer>0</integer>
-                    </dict>
-                    <dict>
-                        <key>AssetTag</key>
-                        <string></string>
-                        <key>BankLocator</key>
-                        <string></string>
-                        <key>DeviceLocator</key>
-                        <string>Slot 7</string>
-                        <key>Manufacturer</key>
-                        <string>Acidanthera</string>
-                        <key>PartNumber</key>
-                        <string></string>
-                        <key>SerialNumber</key>
-                        <string></string>
-                        <key>Size</key>
-                        <integer>0</integer>
-                        <key>Speed</key>
-                        <integer>0</integer>
-                    </dict>
-                    <dict>
-                        <key>AssetTag</key>
-                        <string></string>
-                        <key>BankLocator</key>
-                        <string></string>
-                        <key>DeviceLocator</key>
-                        <string>Slot 8</string>
-                        <key>Manufacturer</key>
-                        <string>Acidanthera</string>
-                        <key>PartNumber</key>
-                        <string></string>
-                        <key>SerialNumber</key>
-                        <string></string>
-                        <key>Size</key>
-                        <integer>0</integer>
-                        <key>Speed</key>
-                        <integer>0</integer>
-                    </dict>
-                    <dict>
-                        <key>AssetTag</key>
-                        <string></string>
-                        <key>BankLocator</key>
-                        <string></string>
-                        <key>DeviceLocator</key>
-                        <string>Slot 9</string>
-                        <key>Manufacturer</key>
-                        <string>Acidanthera</string>
-                        <key>PartNumber</key>
-                        <string></string>
-                        <key>SerialNumber</key>
-                        <string></string>
-                        <key>Size</key>
-                        <integer>0</integer>
-                        <key>Speed</key>
-                        <integer>0</integer>
-                    </dict>
-                    <dict>
-                        <key>AssetTag</key>
-                        <string></string>
-                        <key>BankLocator</key>
-                        <string></string>
-                        <key>DeviceLocator</key>
-                        <string>Slot 10</string>
-                        <key>Manufacturer</key>
-                        <string>Acidanthera</string>
-                        <key>PartNumber</key>
-                        <string></string>
-                        <key>SerialNumber</key>
-                        <string></string>
-                        <key>Size</key>
-                        <integer>0</integer>
-                        <key>Speed</key>
-                        <integer>0</integer>
-                    </dict>
-                    <dict>
-                        <key>AssetTag</key>
-                        <string></string>
-                        <key>BankLocator</key>
-                        <string></string>
-                        <key>DeviceLocator</key>
-                        <string>Slot 11</string>
-                        <key>Manufacturer</key>
-                        <string>Acidanthera</string>
-                        <key>PartNumber</key>
-                        <string></string>
-                        <key>SerialNumber</key>
-                        <string></string>
-                        <key>Size</key>
-                        <integer>0</integer>
-                        <key>Speed</key>
-                        <integer>0</integer>
-                    </dict>
-                    <dict>
-                        <key>AssetTag</key>
-                        <string></string>
-                        <key>BankLocator</key>
-                        <string></string>
-                        <key>DeviceLocator</key>
-                        <string>Slot 12</string>
-                        <key>Manufacturer</key>
-                        <string>Acidanthera</string>
-                        <key>PartNumber</key>
-                        <string></string>
-                        <key>SerialNumber</key>
-                        <string></string>
-                        <key>Size</key>
-                        <integer>0</integer>
-                        <key>Speed</key>
-                        <integer>0</integer>
-                    </dict>
-                </array>
-                <key>ErrorCorrection</key>
-                <integer>3</integer>
-                <key>FormFactor</key>
-                <integer>13</integer>
-                <key>MaxCapacity</key>
-                <integer>17179869184</integer>
-                <key>TotalWidth</key>
-                <integer>64</integer>
-                <key>Type</key>
-                <integer>24</integer>
-                <key>TypeDetail</key>
-                <integer>128</integer>
+                <string>2B90ECB8-70DB-4B30-84AF-607E3C7025F0</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -1356,22 +1114,16 @@
             <dict>
                 <key>ClearScreenOnModeSwitch</key>
                 <false/>
-                <key>ConsoleFont</key>
-                <string></string>
                 <key>ConsoleMode</key>
                 <string></string>
                 <key>DirectGopRendering</key>
                 <false/>
                 <key>ForceResolution</key>
                 <false/>
-                <key>GopBurstMode</key>
-                <false/>
                 <key>GopPassThrough</key>
                 <string>Disabled</string>
                 <key>IgnoreTextInGraphics</key>
                 <false/>
-                <key>InitialMode</key>
-                <string></string>
                 <key>ProvideConsoleGop</key>
                 <true/>
                 <key>ReconnectGraphicsOnConnect</key>
@@ -1427,8 +1179,6 @@
                 <false/>
                 <key>OSInfo</key>
                 <false/>
-                <key>PciIo</key>
-                <false/>
                 <key>UnicodeCollation</key>
                 <false/>
             </dict>
@@ -1458,10 +1208,6 @@
                 <true/>
                 <key>ResizeGpuBars</key>
                 <integer>-1</integer>
-                <key>ResizeUsePciRbIo</key>
-                <false/>
-                <key>ShimRetainProtocol</key>
-                <false/>
                 <key>TscSyncTimeout</key>
                 <integer>0</integer>
                 <key>UnblockFsConnect</key>
