@@ -2,9 +2,9 @@
 
   <img src="https://github.com/UHDbits/M73-Tiny-OpenCore/raw/main/Resources/Images/ThinkCentre.png" alt="Image of a Lenovo ThinkCentre M73 Tiny." width="400px"/>
   
-  # **OpenCore 0.9.8 for the Lenovo ThinkCentre M73 Tiny**
+  # **OpenCore 0.9.9 for the Lenovo ThinkCentre M73 Tiny**
   
-  [![OpenCore 0.9.8](https://img.shields.io/badge/OpenCore-0.9.7-004852)](https://github.com/acidanthera/OpenCorePkg)
+  [![OpenCore 0.9.9](https://img.shields.io/badge/OpenCore-0.9.7-004852)](https://github.com/acidanthera/OpenCorePkg)
   [![macOS Big Sur 11.0 to Sonoma 14.3](https://img.shields.io/badge/macOS-Big%20Sur%2011.0%20to%20Sonoma%2014.3-7D1B35?logo=apple)](https://apple.com/macos/sonoma)
 
   [![Maintained? Partially.](https://img.shields.io/badge/Maintained%3F-Partially.-666600.svg)](/Resources/Documentation/Maintenance.md)
